@@ -29,7 +29,7 @@ curl -X POST -d “shutdown” http://127.0.0.1:8088/hash
 
 Testing documents:
 Located in this repository
-Test Environment Setup Notes for Manual and Automated testing
-Password Hash Testcases (spreadsheet)
-Initial Automated Testcases
+-Test Environment Setup Notes for Manual and Automated testing
+-Password Hash Testcases (spreadsheet)
+-Initial Automated Testcases (password_hash_tests.py)
 
