@@ -14,9 +14,9 @@ The Jump Cload Password Hashing document ('The Document') has an issue with runn
 
 curl -X POST -H "application/json" -d '{"password":"angrymonkey"}' http://127.0.0.1:8088/hash
 
-Becomes:
+Becomes (note the escaped double quotes):
 
-curl -X POST -H "application/json" -d “{\"password\":\"angrymonkey\"}” http://127.0.0.1:8088/hash
+curl -X POST -H "application/json" -d “{\\"password\\":\\"angrymonkey\\"}” http://127.0.0.1:8088/hash
 
 and:
 
