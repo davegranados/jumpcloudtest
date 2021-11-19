@@ -10,6 +10,10 @@ All main success scenarios (defined by scenarios depicted in The Document) will 
 
 All test cases will go into the attached spreadsheet. Tests covered by automation will have a field in their test case indicating that particular test is covered by automation
 
+Concurrency tests would be best approached thought automation using Python's thread module, but there was not enough time to implement this feature during this iteration.
+
+Testing the allowing of inflight requests made prior to shutdown would be a difficult feature to effectively test without a some of the design enhancements implemented.
+
 **Password Hash Design Review:**
 - This endpoint should be https
 - Consider making the PORT value configurable via a config file, to handle the situation where the expected port is in use by another resource on the SUT.
