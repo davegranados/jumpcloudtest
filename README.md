@@ -1,8 +1,9 @@
-**JumpCloud Password Hash Testing Document ('The Document')**
+**JumpCloud Password Hash Testing Document**
 
 **Assumptions:**
 As this is intended for production, all issues/design suggestions will be reported with that perspective in mind, and logged under the Issues tab on this repository: https://github.com/davegranados/jumpcloudtest/issues
 
+The JumpCloud Password Hash document willbe referred to as 'The Document' in these deliverables when necessary
 **Overall Testing Strategy:**
 Assess the The Document and extract the specifications for suitability for testing and automation. Some of the specifications lend themselves to straightforward automation, some are more complicated and would be automated in subsequent automation cycles. A few would be very difficult to automate or result in brittle tests.
 
