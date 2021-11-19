@@ -1,7 +1,14 @@
-JumpCloud Password Hash Testing Document
+'''JumpCloud Password Hash Testing Document ('The Document')'''
 
 Assumptions:
 As this is intended for production, all issues/design suggestions will be reported with that perspective in mind, and logged under the Issues tab on this repository: https://github.com/davegranados/jumpcloudtest/issues
+
+Overall Testing Strategy:
+Assess the The Document and extract the specifications for suitability for testing and automation. Some of the specifications lend themselves to straightforward automation, some are more complicated and would be automated in subsequent automation cycles. A few would be very difficult to automate or result in brittle tests.
+
+All main success scenarios (defined by scenarios depicted in The Document) will be covered
+
+All test cases will go into the attached spreadsheet. Tests covered by automation will have a field in their test case indicating that particular test is covered by automation
 
 Password Hash Design Review:
 - This endpoint should be https
@@ -10,7 +17,7 @@ Password Hash Design Review:
 - Enhance the possible responses to deal with weak passwords/prohibited password characters. These could also be a part of the theoretical config file
 
 Windows Specific issues:
-The Jump Cload Password Hashing document ('The Document') has an issue with running curl on windows. Double quotes must be used in order for the commands to execute successfully. So:
+The Document has an issue with running curl on windows. Double quotes must be used in order for the commands to execute successfully. So:
 
 curl -X POST -H "application/json" -d '{"password":"angrymonkey"}' http://127.0.0.1:8088/hash
 
@@ -29,6 +36,7 @@ curl -X POST -d “shutdown” http://127.0.0.1:8088/hash
 
 Testing documents:
 Located in this repository
+
 -Test Environment Setup Notes for Manual and Automated testing
 
 -Password Hash Testcases (spreadsheet)
