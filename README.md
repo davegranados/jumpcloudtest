@@ -1,4 +1,4 @@
-**JumpCloud Password Hash Testing Document ('The Document')***
+##JumpCloud Password Hash Testing Document ('The Document')##
 
 **Assumptions:**
 As this is intended for production, all issues/design suggestions will be reported with that perspective in mind, and logged under the Issues tab on this repository: https://github.com/davegranados/jumpcloudtest/issues
