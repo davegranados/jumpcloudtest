@@ -1,0 +1,15 @@
+**Test Environment Setup**
+
+Follow the instructions from The Document to set up the password hash app. Leave the terminal open, as this will help with testing (the app will report a few error error messages and can be used to verify when it is shutdown.
+
+Test steps and results can be recorded on the Password Hash Testcases spreadsheet
+
+
+**Automated Testing notes:**
+If running all tests, note that the last test will shut down the test instance of the Password Hash app. If you want to avoid this, comment out the last tests.
+
+The test script uses the json and requests modules. json should be part of a standard python install, but requests may need to be installed. This can be done via with pip:
+
+pip install requests
+
+These test script has been tested running through Pycharm and via cmd. Be sure Python is on your PATH.
