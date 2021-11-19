@@ -14,9 +14,10 @@ The Jump Cload Password Hashing document ('The Document') has an issue with runn
 
 curl -X POST -H "application/json" -d '{"password":"angrymonkey"}' http://127.0.0.1:8088/hash
 
-Becomes (note the escaped double quotes):
+Becomes (note the escaped double quotes, using an image here since Github apparently doesn't allow escaped backslashes in this file):
+![image](https://user-images.githubusercontent.com/36861783/142569590-c051c7e1-78dd-4a7d-8414-9613908723bf.png)
 
-curl -X POST -H "application/json" -d “{\\"password\\":\\"angrymonkey\\"}” http://127.0.0.1:8088/hash
+curl -X POST -H "application/json" -d “{\"password\":\"angrymonkey\"}” http://127.0.0.1:8088/hash
 
 and:
 
