@@ -2,6 +2,9 @@
 
 Follow the instructions from The Document to set up the password hash app. Leave the terminal open, as this will help with testing (the app will report a few error error messages and can be used to verify when it is shutdown.
 
+You can quickly test if the app is up by opening a browser and entering :  http://127.0.0.1:8088
+If you get a 404 error the app is (probably) running. If you get a connection refused error it is not
+
 Test steps and results can be recorded on the Password Hash Testcases spreadsheet
 
 
